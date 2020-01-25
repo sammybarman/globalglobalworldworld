@@ -10,12 +10,54 @@ main {
   }
 
 nav{
+  position:fixed;
+  background: rgba(0, 0, 0, 0);
+  min-height: max-content !important;
+  line-height: max-content !important;
+  transition: background-color 0.2s ease-out;
+}
+
+nav ul a:hover{
+  font-weight: bold;
+}
+
+.navsec{
+  background-image: url(../img/nav2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.forjq{
+  color: white;
+}
+
+.bg{
+  background: white;
+}
+
+.bg2{
+  color: black;
+}
+
+hr{
+  border: 1px solid black;
+}
+
+/* nav{ zzz
   position: fixed;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 0);
   padding:0px 20px;
   z-index: 99999;
   box-shadow: none !important;
   transition: background-color 0.4s ease-out;
+}
+
+.navsec{
+  background-image: url("static/img/nav.jpg") !important;
+  background-image: image("static/img/nav.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vh 100vw;
 }
 
 nav ul a:hover{
@@ -114,7 +156,7 @@ nav a:visited{
    position:relative;
    bottom: -20px;
    right: 5px;
- }
+ } */
 
 /* .parallax-container {
     max-height: "700px";

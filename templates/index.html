@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Diapro</title>
+  <title>Global Green Concepts</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,100 +11,84 @@
   <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" media="screen,projection">
 </head>
 <body>
-
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0"></script>
-
-  <nav style="min-height:80px; line-height: 80px">
-    <div class="nav-wrapper">
-      <a href="/" class=" center brand-logo">DIAPRO</a>
-      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-med-and-down forjq"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a class="forjq" href="/about">ABOUT US</a></li>
-        <li><a class='dropdown-trigger forjq' href='#' data-target='dropdown1'>WHY DIAPRO?</a></li>
-        <li><a class="forjq" href="/product">PRODUCTS</a></li>
-        <li><a class="forjq" href="#social">SOCIAL</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="#!">one</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a href="#!">three</a></li>
-  </ul>
-
-  <ul id="slide-out" class="sidenav" style="background-color: black; margin-top: 80px">
-    <li><a style="color:white" class="waves-effect" href="/about">ABOUT US</a></li>
-    <li><div class="divider"></div></li>
-    <li><a style="color:white" class='waves-effect' href="/why">WHY DIAPRO?</a></li>
-    <li><div class="divider"></div></li>
-    <li><a style="color:white" class="waves-effect" href="/product">PRODUCTS</a></li>
-    <li><div class="divider"></div></li>
-    <li><a style="color:white" class="waves-effect" href="#social">SOCIAL</a></li>
-    <li><div class="divider"></div></li>
-  </ul>
-
-  <section style="min-height: max-content !important; margin-top: 80px;">
-    <div class="parallax-container" style="min-height: max-content !important">
-      <div class="parallax"><img style="min-height: 100%;" src="/static/img/logo.jpeg"></div>
-
-      <div>
-        <h1 class="section scrollspy white-text" id="aboutmain" style="text-align: center; margin-bottom: 0px">ABOUT US</h1>
-        <hr class="title-under"/>
+  <section class="navsec" style="min-height:100vh; min-width:100vw">
+    <nav style="padding-top: 20px;">
+      <div class="nav-wrapper">
+        <a href="/" class="left brand-logo" style="padding-left: 30px;"><img src="../static/img/logo3.png" alt=""></a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger right show-on-med-and-down forjq"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a class="forjq" href="/about">ABOUT</a></li>
+          <li><a class='forjq' href='#'>SERVICES</a></li>
+          <li><a class="forjq" href="/product">PROJECTS</a></li>
+          <li><a class="forjq" href="#social">CLIENTS</a></li>
+        </ul>
       </div>
-      <br>
-      <div class="container" style="text-align:center">
-        <p class="white-text" style="font-size: 20px">As a diabetic, you have heard about what happens if you don&rsquo;t take care of your feet, and naturally we and you don&rsquo;t want that to happen to you.<br />
-          <br />
-          What is the difference between a diabetic shoe and one from a normal shoe-store? What makes a diabetic shoe more preferential over any store-bought style of footwear?<br />
-          <br />
-          A person with diabetes has to be wary of losing sensation in their feet, which occurs gradually; as blood flow is impeded to the extremities, bumps and calluses harm the soft tissues and can cause the person real damage. The nerve damage that characterizes diabetic peripheral neuropathy is common in diabetic patients. As diabetic peripheral neuropathy progresses, various nerves are affected-these damaged nerves encourage the development of ulcers.<br />
-          <br />
-          We have all experienced &ldquo;Off the shelf&rdquo; pair of shoes that rubs the skin raw in one place, pushes in another and feels uncomfortable. If you are diabetic, you have to ensure these things don&rsquo;t happen to you. Read more <a href="/about"> here</a>
+    </nav>
+    <div style="padding-top: 20%;" class="center" >
+      <h3 class="white-text" style="padding-left: 35%; padding-right: 35%;"><b>WHEN THE WELL IS DRY, WE WILL KNOW THE WORTH OF <span style="color: aqua;">WATER.</span></b> </h3>
+      <button class="green btn waves-effect white-text" style="margin-top:3%">OUR SOLUTIONS</button>
+    </div>
+  </section>
+
+  <ul id="slide-out" class="sidenav" style="background-color: black">
+    <li><a style="color:white" class="waves-effect" href="/about">ABOUT</a></li>
+    <li><div class="divider"></div></li>
+    <li><a style="color:white" class='waves-effect' href="/why">SERVICES</a></li>
+    <li><div class="divider"></div></li>
+    <li><a style="color:white" class="waves-effect" href="/product">PROJECTS</a></li>
+    <li><div class="divider"></div></li>
+    <li><a style="color:white" class="waves-effect" href="#social">CLIENTS</a></li>
+    <li><div class="divider"></div></li>
+  </ul>
+
+  <section style="min-height:100vh" id="sec1">
+    <div style="text-align:center; padding: 10px 0">
+      <h3 class="green-text"><b>ABOUT US</b></h3>
+    </div>
+    <div class="center container">
+      <p><b>
+        Global Green Concepts Pvt Ltd. (GGC) is uniquely positioned as an Environment Solutions Provider with over fifteen years experience in one major business domain - Water & Environment.
+      </b></p>
+    </div>
+    <br>
+    <div class="row" style="padding: 0% !important;margin: 0% !important;">
+      <div class="col s12 m12 l7" style="padding: 0% !important;margin: 0% !important;">
+        <img style="height: 480px; width: 100%; padding: 0%;margin: 0%;" src="../static/img/about1.jpg" alt="">
+      </div>
+      <div class="col s12 m12 l5 aboutsec" style="padding: 0%;margin: 0%;">
+        <p style="padding: 15% 5%;">Global Green Concepts Pvt Ltd. (GGC) is uniquely positioned as an Environment Solutions Provider with over fifteen years experience in one major business domain - Water & Environment.<br><br>
+           We are internationally recognized with references in the entire gamut of environmental solutions including, but not limited to: Sewage & Effluent Treatment Technologies, Water Conservation Methods,etc.<br><br>
+           GGC offers its clients a total package of turnkey solutions in all areas of sustainability and environmental engineering in the water industry. True to its title, GGC focuses entirely on offering integrated solutions for all issues and problems related to environment engineering.<br>
         </p>
       </div>
-
-      <h3 class="white-text center"><span style="color:red; font-weight:bold">DIAPRO</span> is a leading manufacturer and distributor of customized diabetic footwear.</h3>
-
-      <div class="container" style="text-align:center">
-        <p class="white-text center" style="font-size: 20px">Diapro was started with the intention of providing reliable and effective shoes that offset many of the complications associated with Diabetic Patients. Our shoes provide a level of comfort and support that is unheard of and rarely seen amongst our competitors.<br />
-          Our &ldquo;DIAPRO&reg; Diabetic Footwear&rdquo; is patient friendly, clinically accepted, time tested and conforms to all safety and medical standards, along with &ldquo;certifications&rdquo;.</p>
-        </div>
+    </div>
+    <div class="row" style="padding: 0%; margin: 0%;margin: 0%;">
+      <div class="col s12 m12 l6 aboutsec" style="padding: 0%;margin: 0%;">
+        <p style="padding: 10% 5%;">True to its title, GGC focuses entirely on offering integrated solutions for all environment engineering related problems and issues.
+          <br> The end result is that your business and your environment thrive hand in hand helping to sustain each other. Our core strength’s include consulting in the water space, along with turnkey solutions for creating water-related infrastructure.<br><br>
+          We are backed by more than a fifteen years of field experience in integrated water management technologies specializing in Roof Top, Ground Water Recharge, and Waste Water Recycling incorporating the state of the art green technology.<br>
+          <br> GGC’s Rain Water Harvesting Systems recognized in India as a pioneering and innovative award winning company in the field of Rain Water Harvesting for which we received Social Impact Award, Earth Care Award from Times of India.
+        </p>
       </div>
-  </section>
-
-  <section class="section scrollspy" id="social">&nbsp;
-    <h3 style="color: black" class="center">SOCIAL</h3>
-    <hr class="title-under" />&nbsp;
-    <div class="row">
-      <div class="col s12 m6 cardstuff">
-        <div class="card teal">
-          <div class="fb-page" data-adapt-container-width="false" data-height="500" data-hide-cover="false" data-href="https://www.facebook.com/diaprodr/" data-show-facepile="true" data-small-header="true" data-tabs="timeline" data-width="578">
-            <blockquote cite="https://www.facebook.com/diaprodr/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/diaprodr/">DIAPRO-Diabetic Sandals &amp; Shoes</a></blockquote>
-          </div>
-        </div>
+      <div class="col s12 m12 l6" style="padding: 0%;margin: 0%;">
+        <img style="height: 480px; width: 100%; padding: 0%;margin: 0%;" src="../static/img/MOM.jpg" alt="">
       </div>
-
-      <div class="col s12 m6 cardstuff">
-        <div class="card"><a class="twitter-timeline" data-height="500" data-width="500" href="https://twitter.com/diapro_dr?ref_src=twsrc%5Etfw">Tweets by diapro_dr</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+    </div>
+    <div class="row" style="padding: 0%;margin: 0%;">
+      <div class="col s12 m12 l7" style="padding: 0%;margin: 0%;">
+        <img style="height: 480px; width: 100%; padding: 0%;margin: 0%;" src="../static/img/16.jpg" alt="">
+      </div>
+      <div class="col s12 m12 l5 aboutsec" style="padding: 0%;margin: 0%;">
+        <p style="padding: 23% 5%;">
+          We are the licensee for the world renowned Anox Kaldnes MBBR™ process invented and patented by Anox Kaldnes, a Swedish/Norwegian conglomerate with several intellectual properties in the field of waste water treatment technology.<br><br> We provide wastewater treatment solutions for all types of applications, from compact domestic systems to large-scale turnkey solutions, including feasibility studies.
+        </p>
       </div>
     </div>
   </section>
-
-  <div class="fixed-action-btn">
-    <a class="btn-floating btn-large red tooltipped" data-position="top" data-tooltip="CONTACT US" href="/contact">
-      <i class="large material-icons">call</i>
-    </a>
-  </div>
-
-
-  <footer style="padding-top: 0; background: black; min-height: 50px" class="page-footer">
+  <footer style="padding-top: 0; background: green; min-height: 50px" class="page-footer">
     <div class="footer-copyright">
       <div class="container white-text text-lighten-4">
-        DIAPRO © 2019
+        GLOBAL GREEN CONCEPTS © 2020
         <a class="white-text text-lighten-4 right" href="/contact">CONTACT US</a>
       </div>
     </div>
