@@ -3,7 +3,10 @@ $(document).ready(function(){
     edge: 'right'
   });
   $('.parallax').parallax();
-  $('.scrollspy').scrollSpy();
+  $('.scrollspy').scrollSpy({
+    scrollOffset: 100,
+    throttle: 30
+  });
   $('.materialboxed').materialbox();
   $('.fixed-action-btn').floatingActionButton();
   $('.tap-target').tapTarget();

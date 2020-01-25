@@ -44,6 +44,22 @@ hr{
   border: 1px solid black;
 }
 
+.stuff{
+  border: 0.1px solid grey;
+  height: 500px;
+  width: auto;
+}
+
+.c1{
+  background-image: url(../img/gwater.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.servicestext{
+  padding: 87% 5% 0%;
+}
+
 /* nav{ zzz
   position: fixed;
   background: rgba(0, 0, 0, 0);
