@@ -12,7 +12,8 @@ main {
 nav{
   position:fixed;
   background: rgba(0, 0, 0, 0);
-  min-height: max-content !important;
+  max-height: max-content !important;
+  min-height: 104px !important;
   line-height: max-content !important;
   transition: background-color 0.2s ease-out;
 }
@@ -56,8 +57,78 @@ hr{
   background-size: 100% 100%;
 }
 
-.servicestext{
-  padding: 87% 5% 0%;
+.c1:hover{
+  transform: scale(1.04);
+}
+.c2:hover{
+  transform: scale(1.04);
+}
+.c3:hover{
+  transform: scale(1.04);
+}
+.c4:hover{
+  transform: scale(1.04);
+}
+
+.c2{
+  background-image: url(../img/1.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.c3{
+  background-image: url(../img/9.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.c4{
+  background-image: url(../img/3.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.servicestext1{
+  padding: 0% 0% 0%;
+  margin: 380px 0px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.servicestext2{
+  margin: 380px 0px;
+  padding: 0% 0% 0%;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.servicestext4{
+  padding: 0% 0% 0%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.carousel-item img{
+  height: 200px !important;
+  width: 200px !important;
+}
+
+
+.clientimg img{
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in;
+}
+
+.clientimg:hover img{
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+footer ul li{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: large;
 }
 
 /* nav{ zzz

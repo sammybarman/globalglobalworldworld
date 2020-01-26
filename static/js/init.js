@@ -11,6 +11,7 @@ $(document).ready(function(){
   $('.fixed-action-btn').floatingActionButton();
   $('.tap-target').tapTarget();
   $('.tooltipped').tooltip();
+  $('.carousel').carousel();
 });
 
 $('.dropdown-trigger').dropdown({
