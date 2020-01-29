@@ -16,6 +16,7 @@ nav{
   min-height: 104px !important;
   line-height: max-content !important;
   transition: background-color 0.2s ease-out;
+  z-index: 999;
 }
 
 nav ul a:hover{
